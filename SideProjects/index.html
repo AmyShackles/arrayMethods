@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  <title>Talking about Array Methods</title>
+</head>
+
+<body class=" bg-dark">
+  <div class="container-fluid bg-dark">
+    <div class="navigation-container container sticky-top">
+      <div class="row">
+        <div class="col">
+          <nav id="navbarForSideProject" class="navbar navbar-dark bg-dark">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link text-light bg-dark active " id="mapMethod-tab" data-toggle="tab" href="#mapMethod" role="tab" aria-controls="mapMethod" aria-selected="true">.map()</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light bg-dark" id="forEach-tab" data-toggle="tab" href="#forEach" role="tab" aria-controls="forEach" aria-selected="false">.forEach()</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light bg-dark" id="filterMethod-tab" data-toggle="tab" href="#filterMethod" role="tab" aria-controls="filterMethod"
+                  aria-selected="false">.filter()</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light bg-dark" id="reduceMethod-tab" data-toggle="tab" href="#reduceMethod" role="tab" aria-controls="reduceMethod"
+                  aria-selected="false">.reduce()</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="mein-main container-fluid">
+      <div class="tab-content mein-carousel">
+        <div class="tab-pane fade show active" id="mapMethod" role="tabpanel" aria-labelledby="mapMethod-tab">
+          <a class="mein-control-left bg-dark carousel-control-prev" href="#slideForMapExample" role="button" data-slide="prev">
+            <span aria-hidden="true">&laquo;</span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="mein-control-right bg-dark carousel-control-next" href="#slideForMapExample" role="button" data-slide="next">
+            <span aria-hidden="true">&raquo;</span>
+            <span class="sr-only">Next</span>
+          </a>
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <div id="slideForMapExample" class="mein-carousel carousel slide" data-ride="carousel" data-interval="false">
+                  <ol class="carousel-indicators">
+                    <li data-target="#slideForMapExample" data-slide-to="0" class="active"></li>
+                    <li data-target="#slideForMapExample" data-slide-to="1"></li>
+                    <li data-target="#slideForMapExample" data-slide-to="2"></li>
+                    <li data-target="#slideForMapExample" data-slide-to="3"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img class="d-block w-100" src="carouselphotos/map0.jpg" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" src="carouselphotos/map1.jpg" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" src="carouselphotos/map2.jpg" alt="Third slide">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" src="carouselphotos/map3.jpg" alt="Fourth slide">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="forEach" role="tabpanel" aria-labelledby="forEach-tab">
+          <a class="mein-control-left bg-dark carousel-control-prev" href="#slideforEachExample" role="button" data-slide="prev">
+            <span aria-hidden="true">&laquo;</span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="mein-control-right bg-dark carousel-control-next" href="#slideforEachExample" role="button" data-slide="next">
+            <span aria-hidden="true">&raquo;</span>
+            <span class="sr-only">Next</span>
+          </a>
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <div id="slideforEachExample" class="mein-carousel carousel slide" data-ride="carousel" data-interval="false">
+                  <ol class="carousel-indicators">
+                    <li data-target="#slideforEachExample" data-slide-to="0" class="active"></li>
+                    <li data-target="#slideforEachExample" data-slide-to="1"></li>
+                    <li data-target="#slideforEachExample" data-slide-to="2"></li>
+                    <li data-target="#slideforEachExample" data-slide-to="3"></li>
+                    <li data-target="#slideforEachExample" data-slide-to="4"></li>
+                    <li data-target="#slideforEachExample" data-slide-to="5"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img class="d-block w-100" src="carouselphotos/forEach0.jpg" alt="forEach Slide 1">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" src="carouselphotos/forEach1.jpg" alt="forEach Slide 2">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" src="carouselphotos/forEach2.jpg" alt="forEach Slide 3">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" src="carouselphotos/forEach3.jpg" alt="forEach Slide 4">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" src="carouselphotos/forEach4.jpg" alt="forEach Slide 5">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" src="carouselphotos/forEach5.jpg" alt="forEach Slide 6">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="filterMethod" role="tabpanel" aria-labelledby="filterMethod-tab">
+          <a class="mein-control-left bg-dark carousel-control-prev" href="#filterMethodExample" role="button" data-slide="prev">
+            <span aria-hidden="true">&laquo;</span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="mein-control-right bg-dark carousel-control-next" href="#filterMethodExample" role="button" data-slide="next">
+            <span aria-hidden="true">&raquo;</span>
+            <span class="sr-only">Next</span>
+          </a>
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <div id="filterMethodExample" class="mein-carousel carousel slide" data-ride="carousel" data-interval="false">
+                  <ol class="carousel-indicators">
+                    <li data-target="#filterMethodExample" data-slide-to="0" class="active"></li>
+                    <li data-target="#filterMethodExample" data-slide-to="1"></li>
+                    <li data-target="#filterMethodExample" data-slide-to="2"></li>
+                    <li data-target="#filterMethodExample" data-slide-to="3"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img class="d-block w-100" src="carouselphotos/filter0.jpg" alt="filterMethod Slide 1">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" src="carouselphotos/filter1.jpg" alt="filterMethod Slide 2">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" src="carouselphotos/filter2.jpg" alt="filterMethod Slide 3">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" src="carouselphotos/filter3.jpg" alt="filterMethod Slide 4">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="reduceMethod" role="tabpanel" aria-labelledby="reduceMethod-tab">
+          <a class="mein-control-left bg-dark carousel-control-prev" href="#reduceMethodExample" role="button" data-slide="prev">
+            <span aria-hidden="true">&laquo;</span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="mein-control-right bg-dark carousel-control-next" href="#reduceMethodExample" role="button" data-slide="next">
+            <span aria-hidden="true">&raquo;</span>
+            <span class="sr-only">Next</span>
+          </a>
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <div id="reduceMethodExample" class="mein-carousel carousel slide" data-ride="carousel" data-interval="false">
+                  <ol class="carousel-indicators">
+                    <li data-target="#reduceMethodExample" data-slide-to="0" class="active"></li>
+                    <li data-target="#reduceMethodExample" data-slide-to="1"></li>
+                    <li data-target="#reduceMethodExample" data-slide-to="2"></li>
+                    <li data-target="#reduceMethodExample" data-slide-to="3"></li>
+                    <li data-target="#reduceMethodExample" data-slide-to="4"></li>
+                    <li data-target="#reduceMethodExample" data-slide-to="5"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img class="d-block w-100" src="carouselphotos/reduce0.jpg" alt="reduceMethod Slide 1">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" src="carouselphotos/reduce1.jpg" alt="reduceMethod Slide 2">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" src="carouselphotos/reduce2.jpg" alt="reduceMethod Slide 3">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" src="carouselphotos/reduce3.jpg" alt="reduceMethod Slide 4">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" src="carouselphotos/reduce4.jpg" alt="reduceMethod Slide 3">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" src="carouselphotos/reduce5.jpg" alt="reduceMethod Slide 4">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
