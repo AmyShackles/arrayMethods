@@ -1,6 +1,44 @@
-.mein-carousel {
-  max-width: 900px;
+@keyframes blackToGray {
+  0% {
+    background-color: black;
+  }
+  50% {
+    background-color: lightgray;
+  }
+}
+@keyframes grayToBlack {
+  0% {
+    color: white;
+  }
+  50% {
+    color: black;
+  }
 }
 h3 {
   font-size: 4vh;
+}
+span {
+  animation-name: grayToBlack;
+  animation-duration: 50s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  font-size: 3rem;
+}
+.mein-carousel {
+  max-width: 1000px;
+}
+.mein-control-left,
+.mein-control-right {
+  animation-name: blackToGray;
+  animation-duration: 50s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+#myTab {
+  flex-wrap: nowrap;
+}
+@media (max-width: 500px) {
+  #myTab {
+    font-size: .7rem;
+  }
 }

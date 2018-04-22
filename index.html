@@ -12,9 +12,8 @@
   <link rel="stylesheet" href="css/index.css">
   <title>Talking about Array Methods</title>
 </head>
-
 <body class=" bg-dark">
-  <nav id="navbarForSideProject" class="navbar navbar-dark sticky-top bg-dark">
+  <nav id="navbarForSideProject" class="navbar navbar-dark bg-dark">
     <ul class="nav nav-tabs" id="myTab" role="tablist">
       <li class="nav-item">
         <a class="nav-link text-light bg-dark active " id="mapMethod-tab" data-toggle="tab" href="#mapMethod" role="tab" aria-controls="mapMethod"
@@ -41,7 +40,7 @@
           <!-- each array method is housed in a tab pane and on one row with the controls on col-1 and the content on col-10 -->
           <div class="col-1 w-100">
             <!-- Left controls-->
-            <a class="mein-control-left w-100 bg-dark carousel-control-prev" href="#slideForMapExample" role="button" data-slide="prev">
+            <a class="mein-control-left w-100 carousel-control-prev" href="#slideForMapExample" role="button" data-slide="prev">
               <span aria-hidden="true">&laquo;</span>
               <span class="sr-only">Previous</span>
             </a>
@@ -65,116 +64,139 @@
           </div>
           <!-- Right controls -->
           <div class="col-1 w-100">
-            <a class="mein-control-right w-100 bg-dark carousel-control-next" href="#slideForMapExample" role="button" data-slide="next">
+            <a class="mein-control-right w-100 carousel-control-next" href="#slideForMapExample" role="button" data-slide="next">
               <span aria-hidden="true">&raquo;</span>
               <span class="sr-only">Next</span>
             </a>
           </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-12 text-center text-light">
-          <h3>There are four slides for .map() </h3>
+        <div class="row">
+          <div class="col-12 text-center text-light">
+            <br>
+            <br>
+            <ol class="carousel-indicators">
+              <li data-target="#slideforMapExample" data-slide-to="0" class="active"></li>
+              <li data-target="#slideforMapExample" data-slide-to="1"></li>
+              <li data-target="#slideforMapExample" data-slide-to="2"></li>
+              <li data-target="#slideforMapExample" data-slide-to="3"></li>
+            </ol>
+          </div>
         </div>
       </div>
     </div>
     <div class="tab-pane fade" id="forEach" role="tabpanel" aria-labelledby="forEach-tab">
-        <div id="slideforEachExample" class="carousel slide" data-ride="carousel" data-interval="false">
-          <div class="row no-gutters">
-            <div class="col-1 w-100">
-          <!-- Left controls -->
-          <a class="mein-control-left w-100 bg-dark carousel-control-prev" href="#slideforEachExample" role="button" data-slide="prev">
-             <span aria-hidden="true">&laquo;</span>
-            <span class="sr-only">Previous</span>
-          </a>
+      <div id="slideforEachExample" class="carousel slide" data-ride="carousel" data-interval="false">
+        <div class="row no-gutters">
+          <div class="col-1 w-100">
+            <!-- Left controls -->
+            <a class="mein-control-left w-100 carousel-control-prev" href="#slideforEachExample" role="button" data-slide="prev">
+              <span aria-hidden="true">&laquo;</span>
+              <span class="sr-only">Previous</span>
+            </a>
           </div>
-            <!-- Slide wrapping -->
-            <div class="col-10">
-              <div class="carousel-inner" role="listbox">
-                <div class="carousel-item active">
-                  <img class="d-block w-100" src="carouselphotos/forEach0.jpg" alt="forEach Slide 1">
-                </div>
-                <div class="carousel-item">
-                  <img class="d-block w-100" src="carouselphotos/forEach1.jpg" alt="forEach Slide 2">
-                </div>
-                <div class="carousel-item">
-                  <img class="d-block w-100" src="carouselphotos/forEach2.jpg" alt="forEach Slide 3">
-                </div>
-                <div class="carousel-item">
-                  <img class="d-block w-100" src="carouselphotos/forEach3.jpg" alt="forEach Slide 4">
-                </div>
-                <div class="carousel-item">
-                  <img class="d-block w-100" src="carouselphotos/forEach4.jpg" alt="forEach Slide 5">
-                </div>
-                <div class="carousel-item">
-                  <img class="d-block w-100" src="carouselphotos/forEach5.jpg" alt="forEach Slide 6">
-                </div>
+          <!-- Slide wrapping -->
+          <div class="col-10">
+            <div class="carousel-inner" role="listbox">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="carouselphotos/forEach0.jpg" alt="forEach Slide 1">
               </div>
-            </div> 
-            <!-- Right controls -->
-            <div class="col-1 w-100">
-            <a class="mein-control-right w-100 bg-dark carousel-control-next" href="#slideforEachExample" role="button" data-slide="next">
-                <span aria-hidden="true">&raquo;</span>
-                <span class="sr-only">Next</span>
-              </a>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="carouselphotos/forEach1.jpg" alt="forEach Slide 2">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="carouselphotos/forEach2.jpg" alt="forEach Slide 3">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="carouselphotos/forEach3.jpg" alt="forEach Slide 4">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="carouselphotos/forEach4.jpg" alt="forEach Slide 5">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="carouselphotos/forEach5.jpg" alt="forEach Slide 6">
+              </div>
+            </div>
+          </div>
+          <!-- Right controls -->
+          <div class="col-1 w-100">
+            <a class="mein-control-right w-100 carousel-control-next" href="#slideforEachExample" role="button" data-slide="next">
+              <span aria-hidden="true">&raquo;</span>
+              <span class="sr-only">Next</span>
+            </a>
           </div>
         </div>
-      </div>    
-      <div class="row">
-        <div class="col-12 text-center text-light">
-          <h3>There are six slides for .forEach() </h3>
+        <div class="row">
+          <div class="col-12 text-center text-light">
+            <br>
+            <br>
+            <ol class="carousel-indicators">
+              <li data-target="#slideforEachExample" data-slide-to="0" class="active"></li>
+              <li data-target="#slideforEachExample" data-slide-to="1"></li>
+              <li data-target="#slideforEachExample" data-slide-to="2"></li>
+              <li data-target="#slideforEachExample" data-slide-to="3"></li>
+              <li data-target="#slideforEachExample" data-slide-to="4"></li>
+              <li data-target="#slideforEachExample" data-slide-to="5"></li>
+            </ol>
+          </div>
         </div>
       </div>
     </div>
     <div class="tab-pane fade" id="filterMethod" role="tabpanel" aria-labelledby="filterMethod-tab">
-        <div id="filterMethodExample" class="carousel slide" data-ride="carousel" data-interval="false">
-          <div class="row no-gutters">
-            <div class="col-1 w-100">
-              <!-- Left controls-->
-              <a class="mein-control-left w-100 bg-dark carousel-control-prev" href="#filterMethodExample" role="button" data-slide="prev">
-                 <span aria-hidden="true">&laquo;</span>
-                 <span class="sr-only">Previous</span>
-              </a>
+      <div id="filterMethodExample" class="carousel slide" data-ride="carousel" data-interval="false">
+        <div class="row no-gutters">
+          <div class="col-1 w-100">
+            <!-- Left controls-->
+            <a class="mein-control-left w-100 carousel-control-prev" href="#filterMethodExample" role="button" data-slide="prev">
+              <span aria-hidden="true">&laquo;</span>
+              <span class="sr-only">Previous</span>
+            </a>
+          </div>
+          <!-- Slide wrapping-->
+          <div class="col-10">
+            <div class="carousel-inner" role="listbox">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="carouselphotos/filter0.jpg" alt="filterMethod Slide 1">
               </div>
-              <!-- Slide wrapping-->
-              <div class="col-10">
-              <div class="carousel-inner" role="listbox">
-                <div class="carousel-item active">
-                  <img class="d-block w-100" src="carouselphotos/filter0.jpg" alt="filterMethod Slide 1">
-                </div>
-                <div class="carousel-item">
-                  <img class="d-block w-100" src="carouselphotos/filter1.jpg" alt="filterMethod Slide 2">
-                </div>
-                <div class="carousel-item">
-                  <img class="d-block w-100" src="carouselphotos/filter2.jpg" alt="filterMethod Slide 3">
-                </div>
-                <div class="carousel-item">
-                  <img class="d-block w-100" src="carouselphotos/filter3.jpg" alt="filterMethod Slide 4">
-                </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="carouselphotos/filter1.jpg" alt="filterMethod Slide 2">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="carouselphotos/filter2.jpg" alt="filterMethod Slide 3">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="carouselphotos/filter3.jpg" alt="filterMethod Slide 4">
               </div>
             </div>
-            <!--Right controls-->
-            <div class="col-1 w-100">
-            <a class="mein-control-right w-100 bg-dark carousel-control-next" href="#filterMethodExample" role="button" data-slide="next">
-                <span aria-hidden="true">&raquo;</span>
-                <span class="sr-only">Next</span>
-              </a>
+          </div>
+          <!--Right controls-->
+          <div class="col-1 w-100">
+            <a class="mein-control-right w-100 carousel-control-next" href="#filterMethodExample" role="button" data-slide="next">
+              <span aria-hidden="true">&raquo;</span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 text-center text-light">
+            <br>
+            <br>
+            <ol class="carousel-indicators">
+              <li data-target="#filterMethodExample" data-slide-to="0" class="active"></li>
+              <li data-target="#filterMethodExample" data-slide-to="1"></li>
+              <li data-target="#filterMethodExample" data-slide-to="2"></li>
+              <li data-target="#filterMethodExample" data-slide-to="3"></li>
+            </ol>
           </div>
         </div>
       </div>
-      <div class="row">
-          <div class="col-12 text-center text-light">
-            <h3>There are four slides for .filter() </h3>
-          </div>
-        </div>
-    </div>
-    <div class="tab-pane fade" id="reduceMethod" role="tabpanel" aria-labelledby="reduceMethod-tab">
+      </div>
+      <div class="tab-pane fade" id="reduceMethod" role="tabpanel" aria-labelledby="reduceMethod-tab">
         <div id="reduceMethodExample" class="carousel slide" data-ride="carousel" data-interval="false">
           <div class="row no-gutters">
             <div class="col-1 w-100">
-            <!-- Left controls-->
-              <a class="mein-control-left w-100 bg-dark carousel-control-prev" href="#reduceMethodExample" role="button" data-slide="prev">
-                 <span aria-hidden="true">&laquo;</span>
+              <!-- Left controls-->
+              <a class="mein-control-left w-100 carousel-control-prev" href="#reduceMethodExample" role="button" data-slide="prev">
+                <span aria-hidden="true">&laquo;</span>
                 <span class="sr-only">Previous</span>
               </a>
             </div>
@@ -203,18 +225,28 @@
             </div>
             <!-- Right controls -->
             <div class="col-1 w-100">
-            <a class="mein-control-right w-100 bg-dark carousel-control-next" href="#reduceMethodExample" role="button" data-slide="next">
+              <a class="mein-control-right w-100 carousel-control-next" href="#reduceMethodExample" role="button" data-slide="next">
                 <span aria-hidden="true">&raquo;</span>
                 <span class="sr-only">Next</span>
               </a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 text-center text-light">
+              <br>
+              <br>
+              <ol class="carousel-indicators">
+                <li data-target="#reduceMethodExample" data-slide-to="0" class="active"></li>
+                <li data-target="#reduceMethodExample" data-slide-to="1"></li>
+                <li data-target="#reduceMethodExample" data-slide-to="2"></li>
+                <li data-target="#reduceMethodExample" data-slide-to="3"></li>
+                <li data-target="#reduceMethodExample" data-slide-to="4"></li>
+                <li data-target="#reduceMethodExample" data-slide-to="5"></li>
+              </ol>
+            </div>
           </div>
         </div>
       </div>
-      <div class="row">
-          <div class="col-12 text-center text-light">
-            <h3>There are six slides for .reduce() </h3>
-          </div>
-        </div>
     </div>
   </div>
   <!-- Optional JavaScript -->
